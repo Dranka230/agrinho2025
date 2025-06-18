@@ -1,0 +1,45 @@
+/* Define a cor de fundo e a fonte padrão do corpo da página */
+body {
+  background-color: #213f1b; /* Cor de fundo cinza claro */
+  font-family: Arial, sans-serif; /* Fonte padrão */
+  margin: 0; /* Remove margens padrão */
+  padding: 20px; /* Espaçamento interno */
+}
+
+/* Estiliza os títulos principais */
+h1 {
+  color: #333333; /* Cor do texto */
+  font-size: 2em; /* Tamanho da fonte */
+  margin-bottom: 20px; /* Espaçamento abaixo */
+}
+
+/* Estiliza os parágrafos */
+p {
+  color: #666666; /* Cor do texto */
+  line-height: 1.5; /* Altura da linha */
+  margin-bottom: 15px; /* Espaçamento abaixo */
+}
+
+/* Estiliza links */
+a {
+  color: #0066cc; /* Cor do link */
+  text-decoration: none; /* Remove o sublinhado */
+}
+
+a:hover {
+  text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+/* Estiliza botões */
+button {
+  background-color: #4CAF50; /* Cor de fundo verde */
+  color: white; /* Cor do texto */
+  padding: 10px 20px; /* Espaçamento interno */
+  border: none; /* Sem borda */
+  border-radius: 5px; /* Cantos arredondados */
+  cursor: pointer; /* Cursor de mão ao passar */
+}
+
+button:hover {
+  background-color: #45a049; /* Cor ao passar o mouse */
+}
