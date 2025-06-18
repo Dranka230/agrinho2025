@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agrinho Motos - Venda e Compra de Motos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0aa50f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            width: calc(33% - 40px);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        @media(max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dranka Motos</h1>
+        <p>Seu destino para comprar e vender motos com confiança e segurança</p>
+        <nav>
+            <a href="#sobre">Sobre Nós</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>No Agrinho Motos, acreditamos que encontrar a moto perfeita deve ser uma experiência fácil e segura. Somos uma plataforma dedicada a conectar vendedores e compradores de motos de todos os tipos e estilos, oferecendo um ambiente confiável e amigável.</p>
+    </section>
+
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li><strong>Compra e Venda de Motos:</strong> Anuncie sua moto ou encontre a sua próxima companheira de estrada.</li>
+            <li><strong>Avaliação Gratuita:</strong> Quer saber quanto vale sua moto? Faça uma avaliação rápida e gratuita!</li>
+            <li><strong>Segurança e Confiança:</strong> Garantimos transações seguras, com verificação de anúncios e suporte ao cliente.</li>
+            <li><strong>Dicas e Conteúdo:</strong> Acesse nosso blog com dicas de manutenção, novidades do mundo das motos e muito mais!</li>
+        </ul>
+    </section>
+
+    <section id="anuncios">
+        <h2>Vagas de Anúncios</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Yamaha YBR 125</h3>
+                <p>Preço: R$ 8.000</p>
+                <p>Descrição: Moto em ótimo estado, pouco km rodados, documentação em dia.</p>
+            </div>
+            <
